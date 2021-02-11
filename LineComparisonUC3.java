@@ -21,14 +21,11 @@ public class LinecomparisonUC3 {
 		double len2 = Math.sqrt(Math.pow(a2-a1,2)+Math.pow(b2-b1,2));
 		System.out.println("len2: "+len2);
 		if ( len1==len2)
-
 			System.out.println(len1+" is equal to"+ len2);
 		else if (len1 > len2)
 			System.out.println(len1+" is greater than"+ len2);
-		else
-			 System.out.println(len1 +"is greater than"+ len2);
-
-			System.out.println("length is equal");
+		else if(len2 > len1)
+			 System.out.println(len2 +"is greater than"+ len1);
 		else
 			System.out.println("length is not equal");
 
